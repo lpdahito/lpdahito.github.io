@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/* @font-face {
+  font-family: font-awesome-brands;
+  src: url(../fonts/fa-brands-400.ttf);
+} */
+
+p, h1 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+.bold {
+  display: inline;
+  font-weight: 700;
+}
+
+html {
+  color: #FFFFFF;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #455473;
+}
+
+#container {
+  max-width: 275px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 6px auto;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 auto 10px auto;
+}
+
+p {
+  font-weight: 400;
+}
+
+#sep {
+  width: 30px;
+  height: 4px;
+  margin: 14px auto 18px auto;
+  border-radius: 2px;
+  background: #FFFFFF;
+}
+
+#button {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  width: 250px;
+  height: 50px;
+  margin: 0 auto 2px auto;
+  border-radius: 25px;
+  background: #C4D4F2;
+}
+
+#button div span {
+  margin: 0 0 0 2px;
+}
+
+#button div span i {
+  font-size: 0.8em;
+}
+
+#footer {
+  font-size: 0.8rem;
+}
+
+#footer a {
+  color: #C4D4F2;
+  font-weight: 700;
+}
